@@ -19,8 +19,14 @@
 }
 
 .topnav {
-  background-color: var(--third-color);
+  background-color: var(--forth-color);
   color: var(--first-color);
+}
+
+.work-thumbnail-heading {
+  background-color: var(--first-color);
+  color: var(--second-color);
+  margin: 0;
 }
 
 .contact-heading {
