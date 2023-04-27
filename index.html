@@ -1,160 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Import Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Kwon's Portfolio</title>
-  </head>
 
-  <body>
-    <!-- Top Navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container-fluid">
-        <!-- Logo -->
-        <h2 class="navbar-logo">Kwon</h2>
-        <!-- Menu Icon Button with collapsable Top Nav items on smaller screens -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="bi bi-list"></i>
-        </button>
-        <!-- List of Top Nav items -->
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#work">Work</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Import Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <!-- Import Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Kwon's Portfolio</title>
+</head>
 
-    <!-- About Section -->
-    <section id="about" class="container">
-      <div class="row align-items-center">
-        <div class="col-sm-12 col-md-6">
-          <h1 class="about-title">About Me</h1>
-          <p class="about-subtitle">
-            Hi,<br />
-           My name is <span class="about-name">Kyung Kwon</span><br />
-            I always had an interest in coding and wanted to learn more into
-            developer world. I hope to learn a lot from the boot camp.
-          </p>
-        </div>
-        <div class="col-sm-12 col-md-6">
-          <img
-            class="img-fluid w-100 about-img"
-            src="http://via.placeholder.com/200x200"
-            alt=""
-            srcset=""
-          />
-        </div>
+<body>
+  <!-- Top Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <!-- Logo -->
+      <h2 class="navbar-logo">Kwon</h2>
+      <!-- Menu Icon Button with collapsable Top Nav items on smaller screens -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+      </button>
+      <!-- List of Top Nav items -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-    </section>
+    </div>
+  </nav>
 
-    <!-- Portfolio Section -->
-    <section id="work" class="container text-center">
-      <h1 class="section-title">Work</h1>
-      <div class="card text-center border-0">
-        <div class="card-body">
-          <h4 class="card-title"">Horiseon Website</h4>
-          <a href="https://kyungkwon01.github.io/horiseon/"" target=_blank
-            ><img
-              class="img-fluid w-100 h-100"
-              src="./assets/images/Horiseon.png"
-              alt=""
-              srcset=""
-          /></a>
-        </div>
+  <!-- About Section -->
+  <section id="about" class="container">
+    <div class="row align-items-center">
+      <div class="col-sm-12 col-md-6">
+        <h1 class="about-title">About Me</h1>
+        <p class="about-subtitle">
+          Hi, My name is <span class="about-name">Kyung Kwon</span><br />
+          I always had an interest in coding and wanted to learn more into
+          developer world. I hope to learn a lot from the boot camp.
+        </p>
       </div>
-      <div class="row">
-        <div class="col px-0">
-          <div class="card border-0 px-0">
-            <div class="card-body">
-              <h4 class="card-title">Google Website</h4>
-              <a href="https://www.google.com/" target=_blank
-                ><img
-                  class="img-fluid w-100"
-                  src="./assets/images/Google.png"
-                  alt=""
-                  srcset=""
-              /></a>
-            </div>
-          </div>
-        </div>
-        <div class="col px-0">
-          <div class="card border-0">
-            <div class="card-body">
-              <h4 class="card-title">Youtube Website</h4>
-              <a href="https://www.youtube.com/" target=_blank
-                ><img
-                  class="img-fluid w-100"
-                  src="./assets/images/YouTube.png"
-                  alt=""
-                  srcset=""
-              /></a>
-            </div>
+      <div class="col-sm-12 col-md-6 text-center">
+        <img class="img-fluid w-100 about-img" src="./assets/images/Kwon.jpg" alt="Picture of Kyung Kwon" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="work" class="container text-center">
+    <h1 class="section-title">Work</h1>
+    <!-- Bigger IMG in work section -->
+    <div class="card text-center border-0">
+      <div class="card-body">
+        <h4 class="card-title"">Horiseon Website</h4>
+          <a href=" https://kyungkwon01.github.io/horiseon/"" target=_blank><img class="img-fluid w-100 h-100"
+            src="./assets/images/Horiseon.png" alt="Screenshot of Horiseon's Site" /></a>
+      </div>
+    </div>
+    <!-- Smaller IMG in work section -->
+    <div class="row">
+      <div class="col px-0">
+        <div class="card border-0 px-0">
+          <div class="card-body">
+            <h4 class="card-title">Google Website</h4>
+            <a href="https://www.google.com/" target=_blank><img class="img-fluid w-100"
+                src="./assets/images/Google.png" alt="Screenshot of Google's site" /></a>
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- Contact Section -->
-    <footer id="contact" class="container text-center">
-      <div class="row align-items-center my-5">
-        <div class="col">
-          <h1 class="section-title">Contact</h1>
-          <div class="row mt-5">
-            <div class="col-sm">
-              <i class="bi bi-telephone-fill contact-icons"></i>
-              <h5>555-555-5555</h5>
-            </div>
-            <div class="col-sm">
-              <i class="bi bi-envelope-at-fill contact-icons"></i>
-              <h5>
-                abcdef@gmail.com
-              </h5>
-            </div>
-            <div class="col-sm">
-              <i class="bi bi-linkedin contact-icons"></i>
-              <h5><a href="https://www.linkedin.com/">Linkedin</a></h5>
-            </div>
+      <div class="col px-0">
+        <div class="card border-0">
+          <div class="card-body">
+            <h4 class="card-title">Youtube Website</h4>
+            <a href="https://www.youtube.com/" target=_blank><img class="img-fluid w-100"
+                src="./assets/images/YouTube.png" alt="Screenshot of Youtube's site" /></a>
           </div>
         </div>
       </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <footer id="contact" class="container text-center">
+    <div class="row align-items-center my-5">
+      <div class="col">
+        <h1 class="section-title">Contact</h1>
+        <!-- Three contact information with Icons -->
+        <div class="row mt-5">
+          <div class="col-sm">
+            <i class="bi bi-telephone-fill contact-icons"></i>
+            <h5>555-555-5555</h5>
+          </div>
+          <div class="col-sm">
+            <i class="bi bi-envelope-at-fill contact-icons"></i>
+            <h5>
+              abcdef@gmail.com
+            </h5>
+          </div>
+          <div class="col-sm">
+            <i class="bi bi-linkedin contact-icons"></i>
+            <h5><a href="https://www.linkedin.com/">Linkedin</a></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Import Bootstrap Script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
