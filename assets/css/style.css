@@ -1,14 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap");
 
 :root {
-  --first-color: #272343;
-  --second-color: #ffffff;
-  --third-color: #e3f6f5;
-  --forth-color: #bae8e8;
+  --first-color: #e4f1fe;
+  --second-color: #34495e;
 }
 
 * {
   font-family: "Work Sans", sans-serif;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
 }
 
 .navbar-toggler:focus,
@@ -18,22 +21,64 @@
   box-shadow: none;
 }
 
-.topnav {
-  background-color: var(--forth-color);
+.navbar {
+  background-color: var(--second-color);
   color: var(--first-color);
 }
 
-.work-thumbnail-heading {
-  background-color: var(--first-color);
-  color: var(--second-color);
+.navbar-logo {
+  font-style: italic;
+  font-weight: bolder;
   margin: 0;
+  padding-left: 10px;
 }
 
-.contact-heading {
-  background-color: var(--first-color);
-  color: var(--second-color);
+.nav-item {
+  padding-right: 15px;
 }
 
-.contact-heading-text {
-  color: var(--second-color);
+.nav-link {
+  color: var(--first-color);
+}
+
+.bi-list {
+  color: white;
+  font-size: 1.75rem;
+}
+
+.about-title {
+  margin-top: 5rem;
+}
+
+.about-name {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.about-subtitle {
+  margin-top: 1rem;
+  font-size: 20px;
+}
+
+.about-img {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.section-title {
+  background-color: var(--second-color);
+  color: var(--first-color);
+  font-weight: 500;
+}
+
+.card-title {
+  background-color: var(--second-color);
+  color: var(--first-color);
+  width: 50%;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+.contact-icons {
+  font-size: 20px;
 }
